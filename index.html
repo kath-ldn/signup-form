@@ -12,13 +12,19 @@
 <body>
    <header>
         <div id="sign-in-container">Already have an Intuit account?<br>
-        <a href="" class="link">I forgot my User Id or Password</a></div>
-        <div id="sign-in"><img src="./assets/lock.png" class="lock-icon"> Sign In</div>
+        <a href="" class="link hover">I forgot my User Id or Password</a></div>
+        <div id="sign-in" class="hover"><span class="white-lock"></span> Sign In</div>
    </header>
 
    <main>
     <div id="main-container">
-        <img src="./assets/branding.png" id="branding">
+        <div id="intuit-logo" class="hover"></div>
+        <div id="logos-container">
+            <div id="mint-logo" class="small-logo hover"></div><div id="mint-text" class="hover"></div>
+            <div id="qb-logo" class="small-logo hover"></div><div id="qb-text" class="hover"></div>
+            <div id="turbo-logo" class="small-logo hover"></div><div id="turbo-text" class="hover"></div>
+
+        </div>
             <div id="form-container">
                 <div id="form-main">
                     <h1 id="form-title">
@@ -37,8 +43,8 @@
                         <div id="phone-disclaimer">Standard call, messaging or data rates may apply.</div>
                         <label for="password">Password</label>
                         <input name="password" type="password">
-                        <button name="submit" id="submit">
-                            <img src="./assets/lock.png" class="lock-icon">
+                        <button name="submit" class="hover" id="submit">
+                            <span class="white-lock"></span>
                             Create Account
                         </button>
                     </form>

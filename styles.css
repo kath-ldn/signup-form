@@ -31,6 +31,22 @@ header{
     text-decoration: none;
 }
 
+.hover:hover{
+    cursor: pointer;
+}
+
+.white-lock{
+    height: 20px;
+    width: 16px;
+    margin-top: 0;
+    margin-right: 6px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(./assets/lock.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 #sign-in, button{
     background: #0077C5;
     border-radius: 4px;
@@ -42,6 +58,7 @@ header{
     justify-content: center;
     width: 110px;
     height: 32px;
+    border: 1px solid #4c4c4c;
 }
 
 .lock-icon{
@@ -54,11 +71,62 @@ header{
     align-items: center;
     margin: 0;
     flex-direction: column;
+    margin-top: 20px;
 }
 
-#branding{
-    width: 340px;
-    padding-top: 10px;
+#intuit-logo{
+    width: 118px;
+    height: 35px;
+    background-image: url(./assets/logo-branding.png);
+    background-size: 562px 83px;
+    background-position: 0 0;
+}
+
+#logos-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0 10px 0;
+}
+
+.small-logo{
+    width: 23px;
+    height: 23px;
+    margin: 4px;
+}
+
+#mint-logo{
+    background: url(./assets/mint-logo.svg) no-repeat;
+}
+
+#qb-logo{
+    background: url(./assets/qb-logo.svg) no-repeat;
+}
+
+#turbo-logo{
+    background: url(./assets/turbo-logo.svg) no-repeat;
+}
+
+#mint-text{
+    width: 37px;
+    height: 20px;
+    background: url(./assets/mint-text.svg) no-repeat;
+    margin-right: 6px;
+}
+
+#qb-text{
+    width: 98px;
+    height: 22px;
+    background: url(./assets/qb-text.svg) no-repeat;
+    margin-right: 6px;
+}
+
+#turbo-text{
+    width: 74px;
+    height: 22px;
+    background: url(./assets/turbo-text.svg) no-repeat;
+    margin-right: 6px;
 }
 
 #form-container{
