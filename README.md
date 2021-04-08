@@ -2,11 +2,11 @@
 
 ## About
 
-This is a clone of the sign-up for at [Mint.com](https://mint.intuit.com/), which I developed for (The Odin Project, HTML & CSS Module HTML Forms project)(https://www.theodinproject.com/paths/full-stack-javascript/courses/html-and-css/lessons/html-forms). The purpose of this was to practice creating forms.
+This is a clone of the sign-up for at [Mint.com](https://mint.intuit.com/), which I developed for [The Odin Project, HTML & CSS Module HTML Forms project](https://www.theodinproject.com/paths/full-stack-javascript/courses/html-and-css/lessons/html-forms). The purpose of this was to practice creating forms.
 
 ### Live Demo
 
-(GitHub pages)[https://kath-ldn.github.io/signup-form/]
+[GitHub pages](https://kath-ldn.github.io/signup-form/)
 
 ### Built with
 
