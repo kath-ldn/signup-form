@@ -6,7 +6,7 @@ This is a clone of the sign-up for at [Mint.com](https://mint.intuit.com/), whic
 
 ### Live Demo
 
-Add link to GH pages
+(GitHub pages)[https://kath-ldn.github.io/signup-form/]
 
 ### Built with
 
